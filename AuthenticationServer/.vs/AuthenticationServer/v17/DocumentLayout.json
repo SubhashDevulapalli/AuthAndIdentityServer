@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "E:\\Practice\\DotNet\\AuthAndIdentityServer\\AuthenticationServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Practice\\DotNet\\AuthAndIdentityServer\\AuthenticationServer\\Models\\AuthDBContext.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\AuthDBContext.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Practice\\DotNet\\AuthAndIdentityServer\\AuthenticationServer\\Models\\AuthPersistedGrantDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\AuthPersistedGrantDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Practice\\DotNet\\AuthAndIdentityServer\\AuthenticationServer\\Models\\AuthConfigurationDbContext.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\AuthConfigurationDbContext.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Practice\\DotNet\\AuthAndIdentityServer\\AuthenticationServer\\Models\\AuthDBContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\AuthDBContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Practice\\DotNet\\AuthAndIdentityServer\\AuthenticationServer\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -18,30 +26,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AuthPersistedGrantDbContext.cs",
+              "DocumentMoniker": "E:\\Practice\\DotNet\\AuthAndIdentityServer\\AuthenticationServer\\Models\\AuthPersistedGrantDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\AuthPersistedGrantDbContext.cs",
+              "ToolTip": "E:\\Practice\\DotNet\\AuthAndIdentityServer\\AuthenticationServer\\Models\\AuthPersistedGrantDbContext.cs",
+              "RelativeToolTip": "Models\\AuthPersistedGrantDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T03:55:08.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AuthDBContext.cs",
               "DocumentMoniker": "E:\\Practice\\DotNet\\AuthAndIdentityServer\\AuthenticationServer\\Models\\AuthDBContext.cs",
               "RelativeDocumentMoniker": "Models\\AuthDBContext.cs",
               "ToolTip": "E:\\Practice\\DotNet\\AuthAndIdentityServer\\AuthenticationServer\\Models\\AuthDBContext.cs",
               "RelativeToolTip": "Models\\AuthDBContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAoAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T03:21:48.189Z",
+              "WhenOpened": "2025-03-22T03:54:43.601Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "AuthConfigurationDbContext.cs",
+              "DocumentMoniker": "E:\\Practice\\DotNet\\AuthAndIdentityServer\\AuthenticationServer\\Models\\AuthConfigurationDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\AuthConfigurationDbContext.cs",
+              "ToolTip": "E:\\Practice\\DotNet\\AuthAndIdentityServer\\AuthenticationServer\\Models\\AuthConfigurationDbContext.cs",
+              "RelativeToolTip": "Models\\AuthConfigurationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T03:53:48.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Practice\\DotNet\\AuthAndIdentityServer\\AuthenticationServer\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "E:\\Practice\\DotNet\\AuthAndIdentityServer\\AuthenticationServer\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAADUAAAAYAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADUAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-22T02:44:43.301Z",
               "EditorCaption": ""
