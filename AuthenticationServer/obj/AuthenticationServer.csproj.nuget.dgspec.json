@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Practice\\DotNet\\AuthAndIdentityServer\\AuthenticationServer\\AuthenticationServer\\AuthenticationServer.csproj": {}
+    "E:\\Practice\\DotNet\\AuthAndIdentityServer\\AuthenticationServer\\AuthenticationServer.csproj": {}
   },
   "projects": {
-    "E:\\Practice\\DotNet\\AuthAndIdentityServer\\AuthenticationServer\\AuthenticationServer\\AuthenticationServer.csproj": {
+    "E:\\Practice\\DotNet\\AuthAndIdentityServer\\AuthenticationServer\\AuthenticationServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Practice\\DotNet\\AuthAndIdentityServer\\AuthenticationServer\\AuthenticationServer\\AuthenticationServer.csproj",
+        "projectUniqueName": "E:\\Practice\\DotNet\\AuthAndIdentityServer\\AuthenticationServer\\AuthenticationServer.csproj",
         "projectName": "AuthenticationServer",
-        "projectPath": "E:\\Practice\\DotNet\\AuthAndIdentityServer\\AuthenticationServer\\AuthenticationServer\\AuthenticationServer.csproj",
+        "projectPath": "E:\\Practice\\DotNet\\AuthAndIdentityServer\\AuthenticationServer\\AuthenticationServer.csproj",
         "packagesPath": "C:\\Users\\Subhash Devulapalli\\.nuget\\packages\\",
-        "outputPath": "E:\\Practice\\DotNet\\AuthAndIdentityServer\\AuthenticationServer\\AuthenticationServer\\obj\\",
+        "outputPath": "E:\\Practice\\DotNet\\AuthAndIdentityServer\\AuthenticationServer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Subhash Devulapalli\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -49,6 +49,10 @@
             "Duende.IdentityServer": {
               "target": "Package",
               "version": "[6.4.1, )"
+            },
+            "Duende.IdentityServer.AspNetIdentity": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             },
             "Duende.IdentityServer.EntityFramework": {
               "target": "Package",

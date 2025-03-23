@@ -1,32 +1,25 @@
-using AuthenticationServer.Models;
+using Duende.IdentityServer.Services;
+using Duende.IdentityServer;
 using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
+using System.Threading.Tasks;
 
-namespace AuthenticationServer.Controllers
+namespace AuthorizationServer.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly IIdentityServerInteractionService interaction;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(IIdentityServerInteractionService interaction)
         {
-            _logger = logger;
+            this.interaction = interaction;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Error(string errorId)
         {
-            return View();
-        }
+            // retrieve error details from identityserver
+            var message = await interaction.GetErrorContextAsync(errorId);
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return View("Error", message);
         }
     }
 }

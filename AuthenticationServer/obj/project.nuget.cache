@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "cgawTrCvn7E=",
+  "dgSpecHash": "DhNdGIR/jbM=",
   "success": true,
-  "projectFilePath": "E:\\Practice\\DotNet\\AuthAndIdentityServer\\AuthenticationServer\\AuthenticationServer\\AuthenticationServer.csproj",
+  "projectFilePath": "E:\\Practice\\DotNet\\AuthAndIdentityServer\\AuthenticationServer\\AuthenticationServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Subhash Devulapalli\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Subhash Devulapalli\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\Subhash Devulapalli\\.nuget\\packages\\duende.identityserver\\7.0.0\\duende.identityserver.7.0.0.nupkg.sha512",
+    "C:\\Users\\Subhash Devulapalli\\.nuget\\packages\\duende.identityserver.aspnetidentity\\7.0.0\\duende.identityserver.aspnetidentity.7.0.0.nupkg.sha512",
     "C:\\Users\\Subhash Devulapalli\\.nuget\\packages\\duende.identityserver.entityframework\\7.0.0\\duende.identityserver.entityframework.7.0.0.nupkg.sha512",
     "C:\\Users\\Subhash Devulapalli\\.nuget\\packages\\duende.identityserver.entityframework.storage\\7.0.0\\duende.identityserver.entityframework.storage.7.0.0.nupkg.sha512",
     "C:\\Users\\Subhash Devulapalli\\.nuget\\packages\\duende.identityserver.storage\\7.0.0\\duende.identityserver.storage.7.0.0.nupkg.sha512",
