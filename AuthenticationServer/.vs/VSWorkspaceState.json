@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
+    "\\DBContext",
     "\\Models"
   ],
-  "SelectedNode": "\\Program.cs",
+  "SelectedNode": "\\DBContext\\AuthDBContext.cs",
   "PreviewInSolutionExplorer": false
 }
